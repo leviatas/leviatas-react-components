@@ -26,6 +26,6 @@ jobs:
       - name: npm ci - Install a project with a clean slate
         run: npm ci
       - name: Publish to npm
-        run: npm publish --access public
+        run: npm publish
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
