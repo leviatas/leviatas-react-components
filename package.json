@@ -1,0 +1,42 @@
+{
+  "name": "leviatas-react-components",
+  "version": "0.0.1",
+  "description": "Leviatas custom components",
+  "source": "src/index.js",
+  "main": "dist/hooks.js",
+  "module": "dist/hooks.module.js",
+  "unpkg": "dist/hooks.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "npm run -s prepare && npm test && changeset publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leviatas/leviatas-react-components.git"
+  },
+  "bugs": {
+    "url": "https://github.com/leviatas/leviatas-react-components/issues"
+  },
+  "keywords": [
+    "react",
+    "leviatas",
+    "components",
+    "custom"
+  ],
+  "author": "Leviatas",
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/leviatas/leviatas-react-components#readme",
+  "peerDependencies": {
+    "react": "^18.x",
+    "react-dom": "^18.x"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "microbundle": "^0.14.2"
+  }
+}
