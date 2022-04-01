@@ -10,7 +10,7 @@
     "build": "microbundle",
     "dev": "microbundle watch",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "npm run -s prepare && npm test && changeset publish"
+    "release": "npm test && npm publish"
   },
   "repository": {
     "type": "git",
