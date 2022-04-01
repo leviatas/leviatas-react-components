@@ -24,6 +24,6 @@ jobs:
       - name: Se instalan dependencias npm install
         run: npm install
       - name: Publish to npm
-        run: npm release
+        run: npm run release
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
