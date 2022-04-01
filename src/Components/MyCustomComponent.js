@@ -1,5 +1,5 @@
 function MyCustomComponent() {
-  return <h1>A</h1>;
+  return <h2>A</h2>;
 }
 
 export default MyCustomComponent;
