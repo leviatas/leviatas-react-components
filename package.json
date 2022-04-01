@@ -1,6 +1,6 @@
 {
   "name": "leviatas-react-components",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Leviatas custom components",
   "source": "src/index.js",
   "main": "dist/hooks.js",
