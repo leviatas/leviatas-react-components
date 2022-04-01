@@ -24,7 +24,7 @@ jobs:
           registry-url: "https://registry.npmjs.org"
 
       - name: npm ci - Install a project with a clean slate
-        run: npm ci
+        run: npm install
       - name: Print token
         run: echo ${{ secrets.NPM_TOKEN }}
       - name: Publish to npm
